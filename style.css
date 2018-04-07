@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25em;
+  font-family: Arial;
+}
+
+header {
+  min-height: 100vh;
+  background-color: #b87e7e;
+}
+
+nav {
+  background-color: #564d4d;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul {
+  margin: 0;
+}
+
+header main {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 1.25em;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #564d4d;
+}
+
+.about-me {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #564d4d;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #b87e7e;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.projects img {
+  width: 50%;
+  padding: 20px;
+  padding-left: 0;
+}
